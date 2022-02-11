@@ -1,3 +1,4 @@
+import About from "./views/about";
 import Comingsoon from "./views/comingsoon";
 import Contact from "./views/contact";
 import Dance from "./views/dance";
