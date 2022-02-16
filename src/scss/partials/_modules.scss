@@ -6,6 +6,11 @@
         background-blend-mode: multiply;
     }
 }
+.bg{
+    &-form{
+        @include set-background($bg__form-img);
+    }
+}
 .dance{
     &-s3{
         background-color: #999 !important;

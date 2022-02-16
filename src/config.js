@@ -24,8 +24,9 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "",
-    users: ""
+    messages: "http://localhost/dance/public/message.php",
+    register: "register.php",
+    users: "http://localhost/dance/public/user.php"
 };
 
 const MESSAGES = {
@@ -39,8 +40,13 @@ const MESSAGES = {
     }
 };
 
+const msgCfg = {
+    pageSize: 10
+};
+
 export {
     appCfg,
     APP_LINKS,
-    MESSAGES
+    MESSAGES,
+    msgCfg
 }
